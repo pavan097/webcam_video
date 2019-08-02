@@ -1,0 +1,5 @@
+
+1. Record the video gray.
+2. Record the color video.
+3. save the record video.
+4. Record and save the video in background without displaying the video while recording.
