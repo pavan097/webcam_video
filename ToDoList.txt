@@ -3,3 +3,9 @@
 2. Record the color video.
 3. save the record video.
 4. Record and save the video in background without displaying the video while recording.
+5. Start the script when the computer turn on (boot up).
+    ref: https://stackoverflow.com/questions/4438020/how-to-start-a-python-file-while-windows-starts
+6. Take the image of the user and store it in the local folder.
+
+Advanced Stuff:
+1. Analyse the stored images.
