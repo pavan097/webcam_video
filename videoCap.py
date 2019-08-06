@@ -14,9 +14,10 @@ c = cv2.VideoCapture(0) # 0 for the inbuilt camera i.e webcam
 
 # single snapshot
 _, frame = c.read()
-cv2.imshow('frame :',frame)
+gray_img = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY) # gray image
+cv2.imshow('frame :',frame)  # color image
 
 
-cv2.waitKey(1)
+cv2.waitKey()
 c.release()
 cv2.destroyAllWindows()
